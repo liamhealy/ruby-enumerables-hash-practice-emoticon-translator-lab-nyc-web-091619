@@ -21,7 +21,7 @@ def get_japanese_emoticon(path, emoticon)
   if emoticon_result != nil
     return emoticon_result
   else
-    return "Not a known emoticon."
+    return emoticon_result = "Not a known emoticon."
   end
 end
 
