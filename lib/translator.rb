@@ -18,7 +18,7 @@ def get_japanese_emoticon(path, emoticon)
   # code goes here
   new_hash = load_library(path)
   emoticon_result = new_hash["get_emoticon"][emoticon]
-  if emoticon_result
+  if emoticon_result != nil
     return emoticon_result
   else
     return "Not a known emoticon."
