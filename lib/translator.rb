@@ -28,5 +28,6 @@ end
 def get_english_meaning(path, emoticon)
   # code goes here
   new_hash = load_library(path)
-  japanese_emoticon = get_japanese_emoticon(path, emoticon)
+  emoticon_meaning = new_hash["get_meaning"][emoticon]
+  emoticon_meaning
 end
