@@ -22,6 +22,7 @@ def get_japanese_emoticon(path, emoticon)
     return emoticon_result
   else
     return "Not a known emoticon."
+  end
 end
 
 def get_english_meaning
